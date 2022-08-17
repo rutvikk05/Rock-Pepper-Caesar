@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(134.34% 134.34% at 50% 0%, #d81515 0%, #416bea 100%);
+    
+}
+
+
+.welcome {
+      display: flex;
+      align-items: center;           
+      
+    }
+    .Intro{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-left: 150px; 
+
+       
+}
+
+.welcome h1{
+    font-size: 3em;
+    color: white;
+    padding: 30px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15em;
+    margin-top: 3em;
+ 
+}
+#playBtn{
+  background: rgb(227, 48, 48);
+  color: white;
+  font-weight: bold;
+  border: 1px;
+  border-radius: 12em;
+  width: 250px;
+  margin-bottom: 30px;
+  padding: 10px;  
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+#playBtn:hover{
+  background: rgb(7, 7, 7);
+  color: rgb(236, 228, 228);
+}
+#rulesBtn{
+  background: rgb(9, 16, 232);
+  color: white;
+  font-weight: bold;
+  border: 1px;
+  border-color: white;
+  border-radius: 10em;
+  width: 100px;
+  margin-bottom: 30px;
+  padding: 5px;
+  margin-left: 6em;  
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+#rulesBtn:hover{
+  background: rgb(24, 4, 4);
+  color: rgb(255, 255, 255);
+}
